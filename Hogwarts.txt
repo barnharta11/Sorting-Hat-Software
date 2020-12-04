@@ -1,0 +1,15 @@
+Question 1: What would you lest like to be called?|[A] Ignorant|[B] Cowardly|[C] Selfish|[D] Orinary
+Question 2: If you could make a potion that would guarantee you one thing, what would it be?|[A] Love|[B] Wisdom|[C] Power|[D] Glory
+Question 3: Four boxes are set before you. Which do you open?|[A] A plain pewter box that says “I open only for the worthy."|[B] A tortoiseshell box that sounds like something living is squeaking inside.|[C] A plain jet black box with a silver rune that you know to be the mark of Merlin.|[D] A golden box with carved feet that warns secret knowledge and unbearable temptation lurk within.
+Question 4: Which of the following do you have the most trouble dealing with?|[A] Boredom|[B] Being Ignored|[C] Being Misunderstood|[D] Lonliness
+Question 5: You and your friends need to cross a bridge guarded by a river troll. He insists that one of you fight him before you can cross. What do you do?|[A] Confuse the troll|[B] Draw lots to see who fights|[C] Have all 3 of you fight (without telling the troll) |[D] Volunteer to fight
+
+Bonus Question: Which path do you take?|HR*|[A] A wide, sunny, grassy path|[B] A cobblestone street lined with ancient buildings
+Bonus Question: Which path do you take?|SR*|[A] A dark, lantern-lit alley|[B] A cobblestone street lined with ancient buildings
+Bonus Question: Which path do you take?|RG*|[A] Twisting leafy path through the woods|[B] A cobblestone street lined with ancient buildings
+Bonus Question: Which path do you take?|SG*|[A] Twisting leafy path through the woods|[B] A dark, lantern-lit alley
+Bonus Question: Which path do you take?|SH*|[A] A wide, sunny, grassy path|[B] A dark, lantern-lit alley
+Bonus Question: Which path do you take?|GH*|[A] A wide, sunny, grassy path|[B] Twisting leafy path through the woods
+
+
+

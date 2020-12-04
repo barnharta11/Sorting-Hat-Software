@@ -1,0 +1,5 @@
+House_Gryffindor|Godric Gryffindor|Scarlet and Gold|Lion|Courage, Bravery, Determination, Daring, Nerve, Chivalry
+House_Hufflepuff|Helga Hufflepuff|Yellow and Black|Badger|Hard-working, Patience, Fairness, Just, Loyalty, Modesty
+House_Ravenclaw|Rowena Ravenclaw|Blue and Bronze|Eagle|Wit, Learning, Wisdom, Acceptance, Intelligence, Creativity
+House_Slytherin|Salazar Slytherin|Green and Silver|Snake|Resourcefulness, Determination, Pride, Cunning, Ambition, Self-preservation
+

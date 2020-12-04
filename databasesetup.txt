@@ -1,0 +1,48 @@
+-- Switch to the system (aka master) database
+USE master;
+GO
+
+-- Delete the EmployeeDB Database (IF EXISTS)
+IF EXISTS(select * from sys.databases where name='HarryPotter')
+DROP DATABASE HarryPotter;
+GO
+
+-- Create a new EmployeeDB Database
+CREATE DATABASE HarryPotter;
+GO
+
+
+CREATE TABLE HogwartsHouses (
+	houseid integer identity Primary Key,
+	housename varchar(20) UNIQUE NOT NULL
+);
+
+CREATE TABLE TEClasses (
+	classid integer identity Primary Key,
+	classname varchar(10) UNIQUE NOT NULL
+);
+
+CREATE TABLE Student (
+	studentid integer identity Primary Key,
+	firstname varchar(15) NOT NULL,
+	lastname varchar(20) NOT NULL,
+	gender char(1) NOT NULL,
+	hogwartshouse varchar(20) NOT NULL,
+	teclass varchar(10) NULL,
+	CONSTRAINT ck_gender CHECK (gender IN ('M', 'F', 'O'))
+	
+	
+);
+
+ALTER TABLE Student ADD CONSTRAINT fk_Student_Houses FOREIGN KEY (hogwartshouse) REFERENCES HogwartsHouses(housename);
+ALTER TABLE Student ADD CONSTRAINT fk_Student_TEClasses FOREIGN KEY (teclass) REFERENCES TEClasses(classname);
+
+Insert HogwartsHouses (HouseName)
+	Values ('Gryffindor'), ('Slytherin'), ('Ravenclaw'), ('Hufflepuff')
+
+Insert Student (firstname, lastname, gender, hogwartshouse, teclass)	
+	Values ('Alicia', 'Barnhart', 'F', 'Slytherin', '.NET')
+
+Insert TEClasses (ClassName)
+	Values ('.NET'), ('Java'), ('Other')
+	

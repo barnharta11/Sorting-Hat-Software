@@ -1,0 +1,6 @@
+ {
+    "ConnectionStrings": {
+      
+      "HarryPotter": "Server=.\\SQLExpress; Database=HarryPotter; Trusted_Connection=True;"
+    }
+ }
